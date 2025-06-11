@@ -7,7 +7,7 @@
 
 ## 🔍 ¿Qué es este proyecto?
 
-Una plataforma web desarrollada en **Laravel** que simula un portal de venta de paquetes turísticos. Incluye:
+Una plataforma web desarrollada en **Laravel** v10.3.3 que simula un portal de venta de paquetes turísticos. Incluye:
 
 * ✍️ Registro y login de usuarios (clientes y personal interno).
 * 🛒 Carrito de compras para seleccionar y gestionar pedidos.
