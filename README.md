@@ -51,27 +51,27 @@ Este proyecto responde a los requisitos de la **Olimpíada Nacional de Programac
 
 🚀 Tutorial para Descargar e Iniciar el Proyecto TurisApp
 1. Clonar el repositorio
-git clone https://github.com/facundovillat/61825800-olimpiada-prog-2025.git
-cd 61825800-olimpiada-prog-2025
+/ git clone https://github.com/facundovillat/61825800-olimpiada-prog-2025.git
+/ cd 61825800-olimpiada-prog-2025
 2. Instalar dependencias de PHP (Laravel)
 Asegúrate de tener Composer instalado.
-composer install
+/ composer install
 3. Instalar dependencias de JavaScript
 Asegúrate de tener Node.js y npm instalados.
-npm install
+/ npm install
 4. Copiar y configurar el archivo de entorno
-cp .env.example .env
+/ cp .env.example .env
 Edita el archivo .env y configura los datos de tu base de datos:
-DB_DATABASE=nombre_de_tu_base
-DB_USERNAME=tu_usuario
-DB_PASSWORD=tu_contraseña
+/ DB_DATABASE=nombre_de_tu_base
+/ DB_USERNAME=tu_usuario
+/ DB_PASSWORD=tu_contraseña
 5. Generar la clave de la aplicación
-php artisan key:generate
+/ php artisan key:generate
 6. Ejecutar migraciones y seeders
 Esto creará las tablas y poblará la base de datos con datos de ejemplo (si hay seeders configurados):
-php artisan migrate --seed
+/ php artisan migrate --seed
 7. Iniciar el servidor de desarrollo
-php artisan serve
+/ php artisan serve
 El proyecto estará disponible en http://localhost:8000.
 
 ## 📝 Licencia
